@@ -1,0 +1,273 @@
+➜  SI_2024_lab1_223061 git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/dushan/Desktop/finki/SI_2024_lab1_223061/.git/
+
+
+➜  SI_2024_lab1_223061 git:(master) ✗ git commit -m "Initial commit"
+[master (root-commit) 8c30832] Initial commit
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+
+➜  SI_2024_lab1_223061 git:(master) ✗ git commit -m "Add starter code"
+[master 09d5fc0] Add starter code
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 47 insertions(+)
+ create mode 100644 SILab1Main.java
+ create mode 100644 SILab1_1.java
+ create mode 100644 SILab1_2.java
+
+
+
+
+➜  SI_2024_lab1_223061 git:(master) git push origin master
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.11 KiB | 1.11 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+ * [new branch]      master -> master
+
+
+➜  SI_2024_lab1_223061 git:(bug1) ✗ git commit -m "Fix wrong condition in filterOddLengthStrings"
+[bug1 5baeba2] Fix wrong condition in filterOddLengthStrings
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+
+➜  SI_2024_lab1_223061 git:(bug2) ✗ git commit -m "Fix wrong condition in makeBigStringFrom"
+[bug2 849a04f] Fix wrong condition in makeBigStringFrom
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+
+➜  SI_2024_lab1_223061 git:(bug1) ✗ git commit -m "Call method filterOddLengthStrings"
+[bug1 1ce0db3] Call method filterOddLengthStrings
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+
+
+➜  SI_2024_lab1_223061 git:(bug2) ✗ git commit -m "Call method makeBigStringFrom in main class"
+[bug2 0fa91f5] Call method makeBigStringFrom in main class
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+
+
+
+➜  SI_2024_lab1_223061 git:(bug2) git push origin bug2
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 700 bytes | 700.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'bug2' on GitHub by visiting:
+remote:      https://github.com/theroadfreak/SI_2024_lab1_223061/pull/new/bug2
+remote:
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+ * [new branch]      bug2 -> bug2
+
+
+
+➜  SI_2024_lab1_223061 git:(bug1) git push origin bug1
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 751.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'bug1' on GitHub by visiting:
+remote:      https://github.com/theroadfreak/SI_2024_lab1_223061/pull/new/bug1
+remote:
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+ * [new branch]      bug1 -> bug1
+
+
+➜  SI_2024_lab1_223061 git:(master) git merge bug1
+Conflict solved in main class
+Conflict solved in main class
+Updating 09d5fc0..1ce0db3
+Fast-forward
+ SILab1Main.java | 1 +
+ SILab1_1.java   | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+
+➜  SI_2024_lab1_223061 git:(master) git push origin master
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+   09d5fc0..1ce0db3  master -> master
+
+
+
+➜  SI_2024_lab1_223061 git:(bug2) git rebase master
+Auto-merging SILab1Main.java
+CONFLICT (content): Merge conflict in SILab1Main.java
+error: could not apply 0fa91f5... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 0fa91f5... Call method makeBigStringFrom in main class
+
+
+➜  SI_2024_lab1_223061 git:(6b2dbab) ✗ git rebase --continue
+[detached HEAD 31fb6a1] Conflict solved in main class
+ Committer: Dushan Cimbalevic <dushan@Dushans-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+Successfully rebased and updated refs/heads/bug2.
+
+
+
+➜  SI_2024_lab1_223061 git:(master) git merge bug2
+Updating 1ce0db3..31fb6a1
+Fast-forward
+ SILab1Main.java | 1 +
+ SILab1_2.java   | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+
+➜  SI_2024_lab1_223061 git:(master) git push origin master
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 673 bytes | 673.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+   1ce0db3..31fb6a1  master -> master
+
+
+➜  SI_2024_lab1_223061 git:(bug1) git push origin bug1
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Everything up-to-date
+
+
+➜  SI_2024_lab1_223061 git:(bug2) git push origin bug2
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+ ! [rejected]        bug2 -> bug2 (non-fast-forward)
+error: failed to push some refs to 'github.com:theroadfreak/SI_2024_lab1_223061.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+➜  SI_2024_lab1_223061 git:(bug2) git push origin bug2 --force
+Enter passphrase for key '/Users/dushan/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:theroadfreak/SI_2024_lab1_223061.git
+ + 0fa91f5...31fb6a1 bug2 -> bug2 (forced update)
+

@@ -1,0 +1,43 @@
+git init 
+git remote add origin git@github.com:theroadfreak/SI_2024_lab1_223061.git
+Git add .
+git commit -m "Initial commit"
+Git add. .
+git commit -m "Add starter code"
+Git push origin master 
+Git branch bug2
+Git checkout -b bug1
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+Git checkout bug2
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+git checkout bug1
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings"
+Git checkout bug2
+git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+Git push origin bug2
+git checkout bug1
+Git push origin bug1
+git checkout master
+Git merge bug1
+Git push origin master
+git checkout bug2
+Git rebase main
+Git add SILab1Main.java
+git rebase --continue
+git checkout master
+Git merge bug2
+git push origin master
+git checkout bug1
+git push origin bug1
+git checkout bug2
+git push origin bug2 --force
+git checkout master
+Git add .
+Git commit -m "Final commit"
+
+
+
